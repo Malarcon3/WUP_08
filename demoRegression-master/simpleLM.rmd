@@ -9,6 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## INTRODUCTION
+
+Here we are trying to find the way to predict the length of a bear.
+
+
 ## make a simple regression model
 
 ```{r}
@@ -23,6 +28,10 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+
+This scatterplot shows that as Neck size goes up, length does as well making the Neck size a good predictor to determine length.
+
+Neck as variable for determining a bears lrnth had adjusted R square score of 0.7476.
 
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
@@ -51,7 +60,9 @@ abline(simp)
 summary.lm(simp)
 ```
 
+This scatterplot shows that as CHEST size goes up, length does as well making the CHEST size a better predictor to determine length.
 
+CHEST as a variable determining a bears l;ength had adjusted R squared score of 0.7869
 
 ## CONCLUSION
 

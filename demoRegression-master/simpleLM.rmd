@@ -53,5 +53,7 @@ summary.lm(simp)
 
 
 
+## CONCLUSION
 
+Chest is a better predictor of length than neck is because the adjusted R squared of the fit for CHEST was larger than the adjust R squared of the fit for neck
 
